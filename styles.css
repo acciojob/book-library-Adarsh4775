@@ -3,15 +3,13 @@ body{
 	background-color: #f8f8f8;
 }
 .book{
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
+	background-color: #ffffff;
+	padding:10px;
 }
 .book-library{
-	background-color: #ffffff;
-	padding:30px;
-	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+	background-color:#ffffff;
+	padding:0px;
+	 box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.1);
 	
 }
 button{
@@ -22,10 +20,14 @@ button{
 	padding:5px;
 	width:200px;
 	cursor:pointer;
+	width:100%;
 }
 .author{
 	color:#777777; 
 }
 button:hover{
 	background-color:green;
+}
+img{
+	margin-left:230px;
 }
