@@ -14,7 +14,7 @@ body{
 	
 	
 }
-button{
+.buttons{
 	background-color:#2ecc71 ;
 	color:white;
 	border:none;
@@ -22,7 +22,7 @@ button{
 	padding:5px;
 	width:200px;
 	cursor:pointer;
-	width:100%;
+	width:610px;
 }
 .author1{
 	color:#777777; 
