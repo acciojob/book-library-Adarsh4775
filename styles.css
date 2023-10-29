@@ -4,12 +4,14 @@ body{
 }
 .book{
 	background-color: #ffffff;
-	padding:10px;
 }
 .book-library{
-	background-color:#ffffff;
+	background-color: #ffffff;
 	padding:0px;
-	 box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.1);
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
 	
 }
 button{
@@ -27,7 +29,4 @@ button{
 }
 button:hover{
 	background-color:green;
-}
-img{
-	margin-left:230px;
 }
