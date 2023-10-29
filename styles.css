@@ -3,17 +3,16 @@ body{
 	background-color: #f8f8f8;
 }
 .book{
-	background-color: #ffffff;
-	
-	
-}
-.book-library{
-	background-color: #ffffff;
-	padding:0px;
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
+}
+.book-library{
+	background-color: #ffffff;
+	padding:30px;
+	
+	
 }
 button{
 	background-color:#2ecc71 ;
@@ -25,7 +24,7 @@ button{
 	cursor:pointer;
 	width:100%;
 }
-.author{
+.author1{
 	color:#777777; 
 }
 button:hover{
